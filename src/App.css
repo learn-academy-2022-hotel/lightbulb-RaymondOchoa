@@ -1,9 +1,30 @@
 h1 {
   text-align: center;
 }
-
-.lightbulb {
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  
+}
+.onoffbox {
   border: 2px solid black;
   width: 200px;
   height: 200px;
+}
+
+.lightswitchbox {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+ 
+}
+
+.lightpicbox {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: white;
 }
